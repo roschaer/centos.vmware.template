@@ -34,6 +34,10 @@
 /bin/rm -f ~root/.bash_history
 unset HISTFILE
 
+#remove users shell history
+/bin/rm -f ~/.bash_history
+unset HISTFILE
+
 #remove root users SSH history
 # temporarily disabled
 #/bin/rm -rf ~root/.ssh/
