@@ -24,7 +24,7 @@
 /bin/rm -f /etc/udev/rules.d/70*
 
 #remove uuid from ifcfg scripts
-/bin/sed -i”.bak” ‘/UUID/d’ /etc/sysconfig/network-scripts/ifcfg-eno16777984
+/bin/sed -i".bak" '/UUID/d' /etc/sysconfig/network-scripts/ifcfg-eno16777984
 
 #remove SSH host keys
 # temporarily disabled
