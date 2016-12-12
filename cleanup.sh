@@ -27,11 +27,13 @@
 /bin/sed –i”.bak” ‘/UUID/d’ /etc/sysconfig/network-scripts/ifcfg-eno16777984
 
 #remove SSH host keys
-/bin/rm -f /etc/ssh/*key*
+# temporarily disabled
+#/bin/rm -f /etc/ssh/*key*
 
 #remove root users shell history
 /bin/rm -f ~root/.bash_history
 unset HISTFILE
 
 #remove root users SSH history
-/bin/rm -rf ~root/.ssh/
+# temporarily disabled
+#/bin/rm -rf ~root/.ssh/
